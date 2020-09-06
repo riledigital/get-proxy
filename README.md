@@ -1,5 +1,9 @@
 # Simple Rotating Proxy Server
 
+get-proxy is a simple proxy server created with the Falcon library that provides a rotating proxy service from a text file. 
+
+# Instructions
+
 Install dependencies with `pipenv install`
 
 Run it with `gunicorn GetProxy:app`
